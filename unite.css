@@ -1,0 +1,79 @@
+
+:root{
+    --main--bg-color:brown;
+}
+
+
+ .content{
+    max-width: 80vw;
+}
+
+.footer{
+    max-width: 100vw;
+    
+}
+
+#iblog{
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.m-auto,.m2-auto{
+   margin: auto;
+   /* margin-bottom:32px; */
+}
+
+.hr{
+    width: 1180px;
+    margin-left: 77px;
+
+}
+
+.my-2{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.btn{
+    padding: 6px 17px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  font-family: arial;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--main--bg-color);
+}
+
+.btn a{
+    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn:hover a{
+    color: #fff;
+}
+
+.form-imput{
+    padding: 4px 5px;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: arial;
+    font-size: 18px;
+}
+
+.form-box input,textarea{
+      width: 52vw;
+      padding: 10px 6px;
+      margin: 7px 0px;
+      font-family: arial;
+      font-size: 18px;
+}

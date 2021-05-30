@@ -1,0 +1,31 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.contact-content{
+    height: 486px;
+    display: flex;
+    margin-top: 32px;
+    padding: 20px;
+    background-image: url("/images/cdh/coffee-image.jpg");
+    /* background-color: #f5f5f5; */
+    position: relative;
+}
+
+.contact-content::after{
+     content: "";
+     /* background-image: url("/images/cdh/writting.jpg"); */
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     height: inherit;
+     opacity: 0.17;
+     border-radius: 12px;
+     z-index: -1;
+}
+
+.form-box input{
+   
+    margin-bottom: 20px;
+}
